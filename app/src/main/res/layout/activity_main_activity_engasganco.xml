@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.vigion.suportebasicodevida1.MainActivityEngasganco"
+    android:background="@drawable/gd"
+    android:nestedScrollingEnabled="false">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="112"
+        android:id="@+id/BtnLigarSOS"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pancadas"
+        android:id="@+id/btnPancadas"
+        android:onClick="btnPancadasOnClick"
+        android:layout_marginBottom="135dp"
+        android:layout_above="@+id/buttonVoltarInicio"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voltar ao inicio"
+        android:id="@+id/buttonVoltarInicio"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="btnInicioOnClick" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manobras de Heimlich"
+        android:id="@+id/btnManHei"
+        android:layout_above="@+id/btnPancadas"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="btnManHeiOnClick" />
+</RelativeLayout>
+
+    <!--<android.support.v4.view.ViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragmentEngasganco"
+        android:background="#ffefffff">
+
+
+    </android.support.v4.view.ViewPager>
+    -->

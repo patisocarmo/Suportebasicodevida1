@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vigion.suportebasicodevida1" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivityInconsciente"
+            android:label="@string/title_activity_main_activity_inconsciente" >
+        </activity>
+        <activity
+            android:name=".MainActivitySBV"
+            android:label="@string/title_activity_main_activity_sbv" >
+        </activity>
+        <activity
+            android:name=".MainActivityPLS"
+            android:label="@string/title_activity_main_activity_pls" >
+        </activity>
+        <activity
+            android:name=".MainActivityEngasganco"
+            android:label="@string/title_activity_main_activity_engasganco" >
+        </activity>
+        <activity
+            android:name=".MainActivityConsciente"
+            android:label="@string/title_activity_main_activity_consciente" >
+        </activity>
+        <activity
+            android:name=".MainActivityManobraDeArmas"
+            android:label="@string/title_activity_main_activity_manobra_de_armas" >
+        </activity>
+        <activity
+            android:name=".MainActivityPancadas"
+            android:label="@string/title_activity_main_activity_pancadas" >
+        </activity>
+        <activity
+            android:name=".MainActivityInconsciente2"
+            android:label="@string/title_activity_main_activity_inconsciente2" >
+        </activity>
+        <activity
+            android:name=".MainActivityInconsciente3"
+            android:label="@string/title_activity_main_activity_inconsciente3" >
+        </activity>
+        <activity
+            android:name=".MainActivityInconsciente4"
+            android:label="@string/title_activity_main_activity_inconsciente4" >
+        </activity>
+        <activity
+            android:name=".MainActivityPancadasBebes"
+            android:label="@string/title_activity_main_activity_pancadas_bebes" >
+        </activity>
+        <activity
+            android:name=".MainActivityManobraDeArmas2"
+            android:label="@string/title_activity_main_activity_manobra_de_armas2" >
+        </activity>
+        <activity
+            android:name=".MainActivityManobraDeArmas3"
+            android:label="@string/title_activity_main_activity_manobra_de_armas3" >
+        </activity>
+        <activity
+            android:name=".MainActivityCompressoes2"
+            android:label="@string/title_activity_main_activity_compressoes2" >
+        </activity>
+        <activity
+            android:name=".MainActivityCompressoes3"
+            android:label="@string/title_activity_main_activity_compressoes3" >
+        </activity>
+        <activity
+            android:name=".Teste"
+            android:label="@string/title_activity_teste" >
+        </activity>
+    </application>
+
+</manifest>
